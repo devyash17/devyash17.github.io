@@ -46,8 +46,8 @@ int gcd(int x, int y, int & a, int & b) {
     }
     int A, B;
     int d = gcd(y % x, x, A, B);
-    x = B - (y / x) * A;
-    y = A;
+    a = B - (y / x) * A;
+    b = A;
     return d;
 }
 {% endhighlight %}
