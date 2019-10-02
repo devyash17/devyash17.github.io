@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Extended Euclidean Algorithm"
-date:   2019-10-02 00:12:51 +0530
+date:   2019-10-03 01:00:51 +0530
 categories: jekyll update
 ---
 
@@ -17,16 +17,16 @@ GCD, a, b = EEA(x,y)
 {% endhighlight %}
 In EEA, we will use EA as sub-routine while simultaneously calculating a and b.
 
-Euclidean Algorithm to calculate GCD(x,y), recursively calls GCD(y%x,x).
-Let g = GCD(x,y), x' = y%x,  y' = x.
+Euclidean Algorithm to calculate `GCD(x,y)`, recursively calls `GCD(y%x,x)`.
+Let `g = GCD(x,y), x' = y%x,  y' = x`.
 
-g, a', b' = EEA(x',y')   // recursive call
+`g, a', b' = EEA(x',y')`   // recursive call
 
 above statement implies:
 a'.x' + b'.y' = g
 
-Substituting x' = y - floor(y/x).x and y' = x, we get
-(b'-floor(y/x).a').x + a'y = g
+Substituting `x' = y - floor(y/x).x and y' = x`, we get
+`(b'-floor(y/x).a').x + a'y = g`
 
 Therefore 
 {% highlight ruby %}
