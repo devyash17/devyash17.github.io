@@ -17,13 +17,12 @@ GCD, a, b = EEA(x,y)
 {% endhighlight %}
 In EEA, we will use EA as sub-routine while simultaneously calculating a and b.
 
-Euclidean Algorithm to calculate `GCD(x,y)`, recursively calls `GCD(y%x,x)`.
-</br>Let `g = GCD(x,y), x' = y%x,  y' = x`.
+Euclidean Algorithm to calculate `GCD(x,y)`, recursively calls `GCD(y%x,x)`.</br>Let `g = GCD(x,y), x' = y%x,  y' = x`.
 
 `g, a', b' = EEA(x',y')`   // *recursive call*
 
 above statement implies:
-</br> `a'.x' + b'.y' = g`
+</br>`a'.x' + b'.y' = g`
 
 Substituting `x' = y - floor(y/x).x and y' = x`, we get
 `(b'-floor(y/x).a').x + a'y = g`
