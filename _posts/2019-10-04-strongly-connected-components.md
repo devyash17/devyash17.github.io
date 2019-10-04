@@ -7,7 +7,7 @@ categories: jekyll update
 
 A directed graph is strongly connected if there is a path from every vertex to all the other vertices in the graph.
 
-The strongly connected components(SCCs) of a graph divide the graph into strongly connected parts as large as possible. For example consider the following graph:
+The **strongly connected components** (SCCs) of a graph divide the graph into strongly connected parts as large as possible. For example consider the following graph:
 
 ![image](https://user-images.githubusercontent.com/41137582/66206262-3564e680-e6cd-11e9-9cc6-308e66003cee.png)
 
@@ -21,25 +21,25 @@ The corresponding component graph is:
 
 The components are `A = {1,2}, B = {3,6,7}, C = {4} and D = {5}`.
 
-A component graph is always a directed acyclic graph or DAG.
+**A component graph is always a directed acyclic graph or DAG.**
 
-The number of SCCs in a graph can be computed using Kosaraju's Algorithm which uses two DFS traversals (one of the original graph and the other of the transposed graph).
+The number of SCCs in a graph can be computed using [Kosaraju's Algorithm][ka] which uses two DFS traversals (one of the original graph and the other of the transposed graph).
 
-Pseudocode to get the number of SCCs in a graph:
+###### Pseudocode to get the number of SCCs in a graph:
 
 {% highlight ruby %}
 
 DFS(graph,u,type)
 {
-# type = 1 => fill the stack
-# type = 2 => simple DFS
+# type = 1 => fill the stack as well along with traversal
+# type = 2 => simple DFS traversal
 	if(visited[u]) return; 
 	else visited[u] = true; 
 	for every neighbour v of u:
 		DFS(graph,v,type);
 	
 	if(type == 1)
-	Stack.push(u); # now push it to the stack after pushing every reachable vertex from it.
+	Stack.push(u); # now push u to the stack after pushing every reachable vertex from it.
 }
 	
 countSCC(graph)
@@ -61,3 +61,8 @@ countSCC(graph)
 }	
 
 {% endhighlight %}
+
+References: [GeeksforGeeks][gfg]
+
+gfg: https://www.geeksforgeeks.org/strongly-connected-components/
+[ka]: https://en.wikipedia.org/wiki/Kosaraju%27s_algorithm
