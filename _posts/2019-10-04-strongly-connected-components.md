@@ -36,7 +36,7 @@ DFS(graph,u,type)
 	if(visited[u]) return; 
 	else visited[u] = true; 
 	for every neighbour v of u:
-		DFS(graph,v,visited);
+		DFS(graph,v,type);
 	
 	if(type == 1)
 	Stack.push(u); # now push it to the stack after pushing every reachable vertex from it.
