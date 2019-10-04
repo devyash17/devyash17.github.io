@@ -25,7 +25,7 @@ The components are `A = {1,2}, B = {3,6,7}, C = {4} and D = {5}`.
 
 The number of SCCs in a graph can be computed using [Kosaraju's Algorithm][ka] which uses two DFS traversals (one of the original graph and the other of the transposed graph).
 
-### Pseudocode to get the number of SCCs in a graph:
+#### Pseudocode to get the number of SCCs in a graph:
 
 {% highlight ruby %}
 
@@ -37,9 +37,10 @@ DFS(graph,u,type)
 	else visited[u] = true; 
 	for every neighbour v of u:
 		DFS(graph,v,type);
-	
+		
+# now push u to the stack after pushing every reachable vertex from it.
 	if(type == 1)
-	Stack.push(u); # now push u to the stack after pushing every reachable vertex from it.
+	Stack.push(u); 
 }
 	
 countSCC(graph)
