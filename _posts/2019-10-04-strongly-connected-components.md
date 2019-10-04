@@ -25,7 +25,7 @@ The components are `A = {1,2}, B = {3,6,7}, C = {4} and D = {5}`.
 
 The number of SCCs in a graph can be computed using [Kosaraju's Algorithm][ka] which uses two DFS traversals (one of the original graph and the other of the transposed graph).
 
-###### Pseudocode to get the number of SCCs in a graph:
+### Pseudocode to get the number of SCCs in a graph:
 
 {% highlight ruby %}
 
@@ -64,5 +64,5 @@ countSCC(graph)
 
 References: [GeeksforGeeks][gfg]
 
-gfg: https://www.geeksforgeeks.org/strongly-connected-components/
+[gfg]: https://www.geeksforgeeks.org/strongly-connected-components/
 [ka]: https://en.wikipedia.org/wiki/Kosaraju%27s_algorithm
