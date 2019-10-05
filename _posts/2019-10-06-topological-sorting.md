@@ -5,7 +5,7 @@ date:   2019-10-06 00:00:51 +0530
 categories: jekyll update
 ---
 
-Topological sorting is an ordering of the vertices of a directed graph such that if there is an edge `a->b` between vertices **a** and **b**, then `a` appears before `b` in the ordering. Consider the graph below:
+Topological sorting is an ordering of the vertices of a directed graph such that if there is an edge `a->b` between vertices **a** and **b**, then **a** appears before **b** in the ordering. Consider the graph below:
 ![image](https://user-images.githubusercontent.com/41137582/66259366-d2a74400-e7cd-11e9-9ed0-65cf70b03a97.png)
 
 One possible ordering is `[4,1,5,2,3,6]`
