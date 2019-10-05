@@ -31,7 +31,7 @@ DFS(graph,u)
 		return ;
 	else state[u] = 2;
 	for every neighbour v of u:
-		DFS(graph,v,state)
+		DFS(graph,v);
 	
 	state[u] = 3; # mark it processed.
 	Stack.push(u);
@@ -44,16 +44,16 @@ topologicalSort(graph)
 	cycle = 0;
 	stack Stack;
 	for every node u in graph:
-		DFS(graph,u)
+		DFS(graph,u);
 		
 	if cycle == 1:
-		return ordering
+		return ordering;
 	
 	while Stack is not Empty:
-		ordering.add(Stack.top())
-		Stack.pop()
+		ordering.add(Stack.top());
+		Stack.pop();
 	
-	return ordering
+	return ordering;
 }
 
 {% endhighlight %}
