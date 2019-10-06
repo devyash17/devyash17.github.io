@@ -7,9 +7,7 @@ categories: jekyll update
 
 The Bellman-Ford Algorithm finds shortest paths from a given source to all vertices of the graph. Unlike Dijkstra's Algorithm, it works well even for the graphs having negative weight edges.
 
-![](https://media.geeksforgeeks.org/wp-content/uploads/bellmanford1.png)  ==>  ![](https://media.geeksforgeeks.org/wp-content/uploads/bellmanford3.png)
-
-Time Complexity: `**O(|V||E|)**`.
+Time Complexity: **`O(|V||E|)`**.
 
 **Application**: This algorithm can be used for detecting negative weight cycle in the graph regardless of the `src` node. 
 
