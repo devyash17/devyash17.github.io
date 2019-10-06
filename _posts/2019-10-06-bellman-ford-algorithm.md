@@ -2,7 +2,7 @@
 layout: post
 title:  "Bellman-Ford Algorithm"
 date:   2019-10-06 16:30:51 +0530
-categories: jekyll update
+categories: Graph Algos
 ---
 
 The Bellman-Ford Algorithm finds shortest paths from a given source to all vertices of the graph. Unlike Dijkstra's Algorithm, it works well even for the graphs having negative weight edges.
