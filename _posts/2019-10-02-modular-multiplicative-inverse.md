@@ -2,7 +2,7 @@
 layout: post
 title:  "Modular Multiplicative Inverse"
 date:   2019-10-02 22:33:51 +0530
-categories: jekyll update
+categories: [Number Theory]
 ---
 
 A modular multiplicative inverse of an integer x is an integer y such that x.y is congruent to 1 modular some modulus m. Mathematically speaking:

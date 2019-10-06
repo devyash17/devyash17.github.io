@@ -2,7 +2,7 @@
 layout: post
 title:  "Topological Sorting"
 date:   2019-10-06 00:00:51 +0530
-categories: Graph Algos
+categories: [Graph Algos]
 ---
 
 Topological sorting is an ordering of the vertices of a directed graph such that if there is an edge `a->b` between vertices **a** and **b**, then **a** appears before **b** in the ordering. Consider the graph below:
