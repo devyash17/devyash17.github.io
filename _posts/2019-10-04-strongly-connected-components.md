@@ -2,7 +2,7 @@
 layout: post
 title:  "Strongly Connected Components"
 date:   2019-10-04 17:33:51 +0530
-categories: Graph Algos
+categories: [Graph Algos]
 ---
 
 A directed graph is strongly connected if there is a path from every vertex to all the other vertices in the graph.
