@@ -9,6 +9,8 @@ The Bellman-Ford Algorithm finds shortest paths from a given source to all verti
 
 Time Complexity: **`O(|V||E|)`**.
 
+![](https://www.lewuathe.com/assets/img/posts/2019-02-03-illustration-of-distributed-bellman-ford-algorithm/sample_graph.png)
+
 **Application**: This algorithm can be used for detecting negative weight cycle in the graph regardless of the `src` node. 
 
 **Note**: If the graph contains a negative weight cycle, shortest path for any vertex that contains the cycle looses its meaning as we can shorten path length as many times as we want by repeating the cycle again and again.
