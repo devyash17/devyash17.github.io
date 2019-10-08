@@ -10,7 +10,7 @@ is that it is more efficient and can be used for processing large graphs.
 
 **Note**: The below implementation is optimal for [dense graphs][dg].
 
-Time Complexity: **`O(n<sup>2</sup> + m)`** 
+Time Complexity: O(n<sup>2</sup> + m)
 where `n`: number of vertices and `m`: number of edges
 
 In case of [sparse graphs][sg], the complexity can be reduced to **`O(n + mlogm)`** using priority queue data structure of STL.
