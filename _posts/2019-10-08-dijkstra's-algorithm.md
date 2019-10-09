@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dijkstra's Algorithm"
+title:  "Dijkstra's Algorithm Part 1"
 date:   2019-10-08 23:33:51 +0530
 categories: [Graph Algos]
 ---
