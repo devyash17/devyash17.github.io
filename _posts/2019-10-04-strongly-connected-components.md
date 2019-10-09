@@ -19,7 +19,7 @@ The corresponding component graph is:
 
 ![image](https://user-images.githubusercontent.com/41137582/66206985-39920380-e6cf-11e9-99cc-fa762250e5ae.png)
 
-The components are `A = {1,2}, B = {3,6,7}, C = {4} and D = {5}`.
+The components are `A = {1,2}, B = {3,6,7}, C = {4} and D = {5}.
 
 A component graph is always a directed acyclic graph or DAG.
 
