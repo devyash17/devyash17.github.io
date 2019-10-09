@@ -21,9 +21,10 @@ In this implementation, I am going to show how **priority queue** data structure
 
 {% highlight ruby %}
 
+# Graph is represented using adjacency list representation
 vector<vector<pair<int, int>>> adj;
 
-Dijkstra(src) # Graph is represented here using adjacency matrix. 
+Dijkstra(adj,src) 
 {
 	bool processed[V] = {false};
 	priority_queue<pair<int,int>> pq;
