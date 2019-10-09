@@ -13,7 +13,7 @@ is that it is more efficient and can be used for processing large graphs.
 Time Complexity: **`O(n + mlogm)`**
 where `n`: number of vertices and `m`: number of edges
 
-In part-1, the time required to find the vertex with the least distance value and not already in the processed set, is of the order of **O(n)** contributing to **O(n<sup>2</sup>)** part of the complexity. 
+In [part-1][p1], the time required to find the vertex with the least distance value and not already in the processed set, is of the order of **O(n)** contributing to **O(n<sup>2</sup>)** part of the complexity. 
 
 In this implementation, I am going to show how **priority queue** data structure can be used instead of an array to yield the same functionality but with a better time complexity.
 
@@ -52,5 +52,6 @@ Dijkstra(src) # Graph is represented here using adjacency matrix.
 
 References: [cp-algorithms][cpa]
 
+[p1]: https://devyash17.github.io/graph%20algos/2019/10/08/dijkstra's-algorithm-(part-1).html
 [sg]: https://xlinux.nist.gov/dads/HTML/sparsegraph.html
 [cpa]: https://cp-algorithms.com/graph/dijkstra_sparse.html
