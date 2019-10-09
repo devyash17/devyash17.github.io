@@ -34,16 +34,16 @@ Dijkstra(src) # Graph is represented here using adjacency matrix.
 	# This step takes O(1) time because of priority queue.
 		u = pq.top().second ;
 		pq.pop();
-		if(processed[u])
+		if(processed[u]):
 		 continue;
 		 
 		processed[u] = true; # include u in the processed set
 		
 		for every edge in adj[u]: # edge = {v,w} => u to v edge has weight w.
 		  v = edge.v, w = edge.w; 
-		  if(distance[v] > distance[u] + w)
-		   distance[v] = distance[u] + w);
-		   pq.push({-distance[v],v});
+		  if(distance[v] > distance[u] + w):
+		    distance[v] = distance[u] + w);
+		    pq.push({-distance[v],v});
 }			
 
 {% endhighlight %}
