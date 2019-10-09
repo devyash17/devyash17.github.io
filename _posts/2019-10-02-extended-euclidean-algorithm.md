@@ -2,7 +2,7 @@
 layout: post
 title:  "Extended Euclidean Algorithm"
 date:   2019-10-03 01:00:51 +0530
-categories: jekyll update
+categories: [Number Theory]
 ---
 
 Extended Euclidean Algorithm(EEA) as suggested by its name, is an extension of Euclidean Algorithm(EA) that alongside with finding GCD(x,y), also finds a way to represent GCD(x,y) in terms of x and y.
