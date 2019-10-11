@@ -27,6 +27,8 @@ vector<vector<pair<int, int>>> adj;
 Dijkstra(adj,src) 
 {
 	bool processed[V] = {false};
+	int distance[V] = {INF};
+	distance[src] = 0;
 	priority_queue<pair<int,int>> pq;
 	pq.push({0,src});
 
