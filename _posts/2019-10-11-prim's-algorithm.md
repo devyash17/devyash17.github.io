@@ -22,6 +22,7 @@ A **minimum spanning tree (MST)** is a spanning tree whose weight is as low as p
 **Note**: MST is not unique and a graph can have several MSTs.
 
 This implementation of [Prim's Algorithm][pa] is pretty much similar to [Dijkstra's Algorithm][da] and works well with [sparse graphs][sg].
+
 ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/PrimAlgDemo.gif/200px-PrimAlgDemo.gif)
 
 Time Complexity: **`O(n + mlogm)`**
