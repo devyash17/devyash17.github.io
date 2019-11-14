@@ -41,7 +41,7 @@ KMP(string S,string P)
 
 	if(j == m)
 	{
-	  cout<<"pattern found at "<<i-j<<endl;
+	  print(pattern found at: i-j);
 	  j = lps[j-1];
 	}
 	else if(i < N && P[j] != S[i])
