@@ -6,57 +6,109 @@ categories: [Miscellaneous]
 ---
 
 1.[Min Jump Array][1]
+
 2.[Longest Consecutive Sequence][2]
+
 3.[Range Module][3]
+
 4.[Sum of root to leaf binary numbers][4]
+
 5.[Minimum cost to hire k workers][5]
+
 6.[Subarray sums divisible by k][6]
+
 7.[Rotten oranges][7]
+
 8.[Patching Array][8]
+
 9.[Jump Game][9]
+
 10.[maximum xor of two numbers in an array][10]
+
 11.[stringoholics][11]
+
 12.[Asteroid Collision][12]
+
 13.[Counting Inversions][13]
+
 14.[minimum number swaps required sort array][14]
+
 15.[maximum consecutive gap][15]
+
 16.[Minimum Window Substring][16]
+
 17.[Stone Game][17]
+
 18.[Snake and Ladder][18]
+
 19.[String Chain][19]
+
 20.[Alien Dictionary][20]
+
 21.[count of smaller numbers after self][21]
+
 22.[median of two sorted arrays][22]
+
 23.[longest arithmetic sequence][23]
+
 24.[Integer Break][24]
+
 25.[push dominoes][25]
+
 26.[3sum][26]
+
 27.[maximum path sum in a binary tree][27]
+
 28.[Maximal Rectangle][28]
+
 29.[Lowest Common Ancestor of a binary-tree][29]
+
 30.[merge k sorted lists][30]
+
 31.[binary tree in vertical order][31]
+
 32.[reorder-list][32]
+
 33.[Maximal Square][33]
+
 34.[container with most water][34]
+
 35.[sliding window maximum][35]
+
 36.[Shortest Common Supersequence][36]
+
 37.[Burst Balloons][37]
+
 38.[Smallest Sufficient Team][38]
+
 39.[Arrange-ii][39]
+
 40.[Binary Tree to DLL][40]
+
 41.[Queue reconstruction by height][41]
+
 42.[Kth manhattan distance neighbourhood][42]
+
 43.[Minimum steps to delete a string after repeated deletion of palindrome substrings][43]
+
 44.[Longest Path Undirected-tree][44]
+
 45.[Best time to buy and sell stocks-iii][45]
+
 46.[Flip Array][46]
+
 47.[Tushars birthday party][47]
+
 48.[Smallest sequence with given primes][48]
+
 49.[Evaluate Expression to true][49]
+
 50.[Commutable Islands][50]
+
 51.[Knight on chess-board][51]
+
 52.[Longest Valid Parentheses][52]
+
 53.[Word Ladder][53]
 
 [1]: https://www.geeksforgeeks.org/minimum-number-jumps-reach-endset-2on-solution/
