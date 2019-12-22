@@ -117,67 +117,67 @@ categories: [Miscellaneous]
 
 56.[ways-color-3n-board-using-4-colors][56]
 
-57.[distribute-candy][58]
+57.[distribute-candy][57]
 
-58.[Seats][59]
+58.[Seats][58]
 
-59.[hotel-bookings-possible][60]
+59.[hotel-bookings-possible][59]
 
-60.[Flip][61]
+60.[Flip][60]
 
-61.[word-ladder-ii][62]
+61.[word-ladder-ii][61]
 
-62.[recover-binary-search-tree][63]
+62.[recover-binary-search-tree][62]
 
-63.[find-distinct-subsets-given-set][64]
+63.[find-distinct-subsets-given-set][63]
 
-64.[combination-sum-ii][65]
+64.[combination-sum-ii][64]
 
-65.[queen-attack][66]
+65.[queen-attack][65]
 
-66.[best-time-to-buy-and-sell-stock-iv][67]
+66.[best-time-to-buy-and-sell-stock-iv][66]
 
-67.[binary-tree-inorder-traversal][68]
+67.[binary-tree-inorder-traversal][67]
 
-68.[find-median-from-data-stream][69]
+68.[find-median-from-data-stream][68]
 
-69.[number-ways-form-heap-n-distinct-integers][70]
+69.[number-ways-form-heap-n-distinct-integers][69]
 
-70.[numrange][71]
+70.[numrange][70]
 
-71.[merge-intervals][72]
+71.[merge-intervals][71]
 
-72.[serialize-and-deserialize-binary-tree][73]
+72.[serialize-and-deserialize-binary-tree][72]
 
-73.[fraction-to-recurring-decimal][74]
+73.[fraction-to-recurring-decimal][73]
 
-74.[gas-station][75]
+74.[gas-station][74]
 
-75.[kth-permutation-sequence][76]
+75.[kth-permutation-sequence][75]
 
-76.[scramble-string][77]
+76.[scramble-string][76]
 
-77.[find-the-maximum-subarray-xor-in-a-given-array][78]
+77.[find-the-maximum-subarray-xor-in-a-given-array][77]
 
-78.[regular-expression-matching][79]
+78.[regular-expression-matching][78]
 
-79.[regular-expression-ii][80]
+79.[regular-expression-ii][79]
 
-80.[find-duplicate-in-array][81]
+80.[find-duplicate-in-array][80]
 
-81.[maximum-unsorted-subarray][82]
+81.[maximum-unsorted-subarray][81]
 
-82.[n3-repeat-number][83]
+82.[n3-repeat-number][82]
 
-83.[best-time-to-buy-and-sell-stock-ii][84]
+83.[best-time-to-buy-and-sell-stock-ii][83]
 
-84.[kth-largest-element-in-an-array][85]
+84.[kth-largest-element-in-an-array][84]
 
-85.[program-for-array-rotation-continued-reversal-algorithm][86]
+85.[program-for-array-rotation-continued-reversal-algorithm][85]
 
-86.[binary-tree-cameras][87]
+86.[binary-tree-cameras][86]
 
-87.[smallest-positive-missing-number][88]
+87.[smallest-positive-missing-number][87]
 
 [1]: https://www.geeksforgeeks.org/minimum-number-jumps-reach-endset-2on-solution/
 [2]: https://leetcode.com/problems/longest-consecutive-sequence/
