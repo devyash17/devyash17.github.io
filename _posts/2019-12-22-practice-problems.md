@@ -111,6 +111,74 @@ categories: [Miscellaneous]
 
 53.[Word Ladder][53]
 
+54.[number-of-palindromic-paths-in-a-matrix][54]
+
+55.[maximum-sum-rectangle-in-a-2d-matrix][55]
+
+56.[ways-color-3n-board-using-4-colors][56]
+
+57.[distribute-candy][58]
+
+58.[Seats][59]
+
+59.[hotel-bookings-possible][60]
+
+60.[Flip][61]
+
+61.[word-ladder-ii][62]
+
+62.[recover-binary-search-tree][63]
+
+63.[find-distinct-subsets-given-set][64]
+
+64.[combination-sum-ii][65]
+
+65.[queen-attack][66]
+
+66.[best-time-to-buy-and-sell-stock-iv][67]
+
+67.[binary-tree-inorder-traversal][68]
+
+68.[find-median-from-data-stream][69]
+
+69.[number-ways-form-heap-n-distinct-integers][70]
+
+70.[numrange][71]
+
+71.[merge-intervals][72]
+
+72.[serialize-and-deserialize-binary-tree][73]
+
+73.[fraction-to-recurring-decimal][74]
+
+74.[gas-station][75]
+
+75.[kth-permutation-sequence][76]
+
+76.[scramble-string][77]
+
+77.[find-the-maximum-subarray-xor-in-a-given-array][78]
+
+78.[regular-expression-matching][79]
+
+79.[regular-expression-ii][80]
+
+80.[find-duplicate-in-array][81]
+
+81.[maximum-unsorted-subarray][82]
+
+82.[n3-repeat-number][83]
+
+83.[best-time-to-buy-and-sell-stock-ii][84]
+
+84.[kth-largest-element-in-an-array][85]
+
+85.[program-for-array-rotation-continued-reversal-algorithm][86]
+
+86.[binary-tree-cameras][87]
+
+87.[smallest-positive-missing-number][88]
+
 [1]: https://www.geeksforgeeks.org/minimum-number-jumps-reach-endset-2on-solution/
 [2]: https://leetcode.com/problems/longest-consecutive-sequence/
 [3]: https://leetcode.com/problems/range-module/
@@ -164,3 +232,37 @@ categories: [Miscellaneous]
 [51]: https://www.interviewbit.com/problems/knight-on-chess-board/
 [52]: https://leetcode.com/problems/longest-valid-parentheses/
 [53]: https://www.interviewbit.com/problems/word-ladder-i/
+[54]: https://www.geeksforgeeks.org/number-of-palindromic-paths-in-a-matrix/
+[55]: https://www.geeksforgeeks.org/maximum-sum-rectangle-in-a-2d-matrix-dp-27/
+[56]: https://www.geeksforgeeks.org/ways-color-3n-board-using-4-colors/
+[57]: https://www.interviewbit.com/problems/distribute-candy/
+[58]: https://www.interviewbit.com/problems/seats/
+[59]: https://www.interviewbit.com/problems/hotel-bookings-possible/
+[60]: https://www.interviewbit.com/problems/flip/
+[61]: https://www.interviewbit.com/problems/word-ladder-ii/
+[62]: https://www.interviewbit.com/problems/recover-binary-search-tree/
+[63]: https://www.geeksforgeeks.org/find-distinct-subsets-given-set/
+[64: https://www.interviewbit.com/problems/combination-sum-ii/
+[65]: https://www.interviewbit.com/problems/queen-attack/
+[66]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
+[67]: https://leetcode.com/problems/binary-tree-inorder-traversal/
+[68]: https://leetcode.com/problems/find-median-from-data-stream/
+[69]: https://www.geeksforgeeks.org/number-ways-form-heap-n-distinct-integers/
+[70]: https://www.interviewbit.com/problems/numrange/
+[71]: https://www.interviewbit.com/problems/merge-intervals/
+[72]: https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+[73]: https://leetcode.com/problems/fraction-to-recurring-decimal/
+[74]: https://leetcode.com/problems/gas-station/
+[75]: https://www.interviewbit.com/problems/kth-permutation-sequence/
+[76]: https://www.interviewbit.com/problems/scramble-string/ 
+[77]: https://www.geeksforgeeks.org/find-the-maximum-subarray-xor-in-a-given-array/
+[78]: https://leetcode.com/problems/regular-expression-matching/
+[79]: https://www.interviewbit.com/problems/regular-expression-ii/
+[80]: https://www.interviewbit.com/problems/find-duplicate-in-array/
+[81]: https://www.interviewbit.com/problems/maximum-unsorted-subarray/
+[82]: https://www.interviewbit.com/problems/n3-repeat-number/
+[83]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+[84]: https://leetcode.com/problems/kth-largest-element-in-an-array/   ( 1-using priority-queue od stl   2-using heaps   3-using quickselect )
+[85]: https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/
+[86]: https://leetcode.com/problems/binary-tree-cameras/
+[87]: https://practice.geeksforgeeks.org/problems/smallest-positive-missing-number/0
