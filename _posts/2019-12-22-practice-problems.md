@@ -228,7 +228,7 @@ categories: [Miscellaneous]
 [47]: https://www.interviewbit.com/problems/tushars-birthday-party/
 [48]: https://www.interviewbit.com/problems/smallest-sequence-with-given-primes/
 [49]: https://www.interviewbit.com/problems/evaluate-expression-to-true/
-[50]: https://www.interviewbit.com/problems/commutable-islands/    // see your solution using both prim and Kruskal's.
+[50]: https://www.interviewbit.com/problems/commutable-islands/
 [51]: https://www.interviewbit.com/problems/knight-on-chess-board/
 [52]: https://leetcode.com/problems/longest-valid-parentheses/
 [53]: https://www.interviewbit.com/problems/word-ladder-i/
@@ -242,7 +242,7 @@ categories: [Miscellaneous]
 [61]: https://www.interviewbit.com/problems/word-ladder-ii/
 [62]: https://www.interviewbit.com/problems/recover-binary-search-tree/
 [63]: https://www.geeksforgeeks.org/find-distinct-subsets-given-set/
-[64: https://www.interviewbit.com/problems/combination-sum-ii/
+[64]: https://www.interviewbit.com/problems/combination-sum-ii/
 [65]: https://www.interviewbit.com/problems/queen-attack/
 [66]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
 [67]: https://leetcode.com/problems/binary-tree-inorder-traversal/
@@ -262,7 +262,7 @@ categories: [Miscellaneous]
 [81]: https://www.interviewbit.com/problems/maximum-unsorted-subarray/
 [82]: https://www.interviewbit.com/problems/n3-repeat-number/
 [83]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
-[84]: https://leetcode.com/problems/kth-largest-element-in-an-array/   ( 1-using priority-queue od stl   2-using heaps   3-using quickselect )
+[84]: https://leetcode.com/problems/kth-largest-element-in-an-array/
 [85]: https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/
 [86]: https://leetcode.com/problems/binary-tree-cameras/
 [87]: https://practice.geeksforgeeks.org/problems/smallest-positive-missing-number/0
