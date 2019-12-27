@@ -5,6 +5,8 @@ date:   2019-12-28 00:00:00 +0530
 categories: [Miscellaneous]
 ---
 
+Euler’s Totient function `phi(n)` for an input n is count of numbers in {1, 2, 3, …, n} that are relatively prime to n.
+
 #### Pseudo code for Euler's Totient function
 
 {% highlight ruby %}
@@ -17,7 +19,7 @@ int phi(int n)
 	  if(n%p == 0)
 	  {
 		while(n%p == 0)
-			n /= p;
+		  n /= p;
 		ans -= ans/p;
 	  }
 	}
