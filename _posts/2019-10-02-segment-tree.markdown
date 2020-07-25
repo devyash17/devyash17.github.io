@@ -2,7 +2,7 @@
 layout: post
 title:  "Segment Tree"
 date:   2019-10-03 15:53:51 +0530
-categories: [Important Data Structures]
+categories: [Data Structures]
 ---
 
 Segment tree is a data structure that supports range queries such as:
