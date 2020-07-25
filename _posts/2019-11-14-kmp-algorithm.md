@@ -17,7 +17,7 @@ For example `S = ABCDABCDAB` and `P = ABCDAB`, then the algorithm should detect 
 
 #π[i] is the length of the longest proper prefix of the substring s[0…i] which is also a suffix of this substring
 
-vector<int> computePhi(string P) {
+vector<int> computePi(string P) {
  
     int n = P.size();
     vector<int> pi(n,0);
@@ -35,7 +35,7 @@ vector<int> computePhi(string P) {
 KMP(string S,string P)
 {
   #compute prefix array
-  vector<int> phi = computePhi(P);
+  vector<int> pi = computePi(P);
   int n = S.size(),m = P.size();
   int i = 0,j = 0;
   while(i < n)
@@ -46,11 +46,11 @@ KMP(string S,string P)
 	if(j == m)
 	{
 	  print(pattern found at: i-j);
-	  j = phi[j-1];
+	  j = pi[j-1];
 	}
 	else if(i < N && P[j] != S[i])
 	{
-	  if(j) j = phi[j-1];
+	  if(j) j = pi[j-1];
 	  else i++;
 	}
   }
