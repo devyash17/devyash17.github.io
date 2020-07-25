@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-I'll post some random stuffs over here some of which might be relevant to you while some might not be(to anyone).
+This blog for now, is dedicated to Competitive Programming based algorithms and Data Structures. In future, I might extend it for other domains as well.
