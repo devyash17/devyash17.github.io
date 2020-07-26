@@ -2,7 +2,7 @@
 layout: post
 title:  "Euler's Totient function"
 date:   2019-12-28 00:00:00 +0530
-categories: [Miscellaneous]
+categories: [Number Theory]
 ---
 
 Euler’s Totient function `phi(n)` for an input n is count of numbers in {1, 2, 3, …, n} that are relatively prime to n.
